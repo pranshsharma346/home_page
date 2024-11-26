@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffde59;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: url('https://via.placeholder.com/1500x800') center/cover no-repeat;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    max-width: 600px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #ffde59;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.hero button:hover {
+    background: #f9c303;
+}
+
+.courses {
+    padding: 50px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.courses h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.courses .course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.course-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.course-card h4 {
+    margin: 10px 0;
+}
+
+.course-card p {
+    color: #555;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+}
